@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board {
+  width: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rowBorder {
+  border-bottom: 2px solid black;
+}
+
+.col {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  user-select: none;
+}
+
+.hasNotPlayed {
+  color: gray;
+}
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 69px;
+}
+
+.playerX {
+  color: red;
+  font-weight: bold;
+}
+
+.playerO {
+  color: blue;
+  font-weight: bold;
+}
+
+.col:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.colBorder {
+  border-right: 2px solid black;
+}
+
+.resetButtonDiv {
+  margin-top: 20px;
+}
+
+.resetButton {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #eee;
+  cursor: pointer;
+}
